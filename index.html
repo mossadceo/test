@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEON WASTELAND XENO NEWS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+  <div class="desert-grid"></div>
+
+  <header class="hero" id="top">
+    <nav class="topbar" aria-label="Главная навигация">
+      <span class="brand-mark">NWXN</span>
+      <span class="access-code">CIVIL ACCESS // SIGNAL OPEN</span>
+    </nav>
+
+    <div class="hero__inner reveal">
+      <p class="archive-label">Classified Desert Archive / Channel 77-B</p>
+      <h1 class="glitch" data-text="NEON WASTELAND XENO NEWS">NEON WASTELAND XENO NEWS</h1>
+      <p class="hero__subtitle">Полевые сводки, досье и радиосигналы из зон, где небо смотрит в ответ</p>
+      <p class="hero__copy" id="typewriter">
+        Архив гражданского доступа. Данные собраны из пустынных передатчиков, заброшенных обсерваторий и нелегальных терминалов внешних колоний.
+      </p>
+      <div class="hero__actions">
+        <button class="terminal-btn" data-target="#news">Последние сводки</button>
+        <button class="terminal-btn terminal-btn--ghost" data-target="#dossiers">Открыть досье</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section reveal" id="news">
+      <div class="section-heading">
+        <span>01</span>
+        <h2>Последние Сводки</h2>
+      </div>
+
+      <div class="news-grid">
+        <article class="data-card news-card">
+          <div class="card-meta">
+            <span>22.10.2281</span>
+            <span>TRUST 61%</span>
+          </div>
+          <h3>Над Южным кратером замечен город, которого не было на карте</h3>
+          <p>Патрульные прожекторы прошли сквозь башни как через пыль. Утром на месте остались только горячие монеты и запах озона.</p>
+          <span class="tag">ORBIT</span>
+        </article>
+
+        <article class="data-card news-card">
+          <div class="card-meta">
+            <span>23.10.2281</span>
+            <span>TRUST 84%</span>
+          </div>
+          <h3>Сигнал 77-B повторяет человеческие голоса с задержкой в 43 года</h3>
+          <p>Архивисты узнали голоса людей, которые еще не родились. Передача заканчивается щелчком и просьбой выключить солнце.</p>
+          <span class="tag">SIGNAL</span>
+        </article>
+
+        <article class="data-card news-card">
+          <div class="card-meta">
+            <span>24.10.2281</span>
+            <span>TRUST 39%</span>
+          </div>
+          <h3>Кочевники сообщают о неоновых существах у старого шоссе</h3>
+          <p>Фигуры двигались между дорожными столбами без теней. При попытке контакта все радиоприемники начали смеяться статикой.</p>
+          <span class="tag">CONTACT</span>
+        </article>
+
+        <article class="data-card news-card">
+          <div class="card-meta">
+            <span>25.10.2281</span>
+            <span>TRUST 72%</span>
+          </div>
+          <h3>В заброшенном казино найден терминал с внеземной прошивкой</h3>
+          <p>Экран принимает жетоны, но выдает координаты. Последний посетитель выиграл семь одинаковых символов и исчез из памяти камер.</p>
+          <span class="tag">MUTATION</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="dossiers">
+      <div class="section-heading">
+        <span>02</span>
+        <h2>Досье Инопланетных Рас</h2>
+      </div>
+
+      <div class="dossier-grid">
+        <article class="data-card dossier-card">
+          <h3>Вейлорские Собиратели</h3>
+          <dl>
+            <dt>Происхождение</dt><dd>Пояс ржавых лун Вейлор-Delta.</dd>
+            <dt>Внешний вид</dt><dd>Тонкие хитиновые тела внутри огромных машин-панцирей.</dd>
+            <dt>Как живут</dt><dd>Кочуют караванами, чиня свои панцири из найденного металла.</dd>
+            <dt>Чем питаются</dt><dd>Минеральной пылью, медью и ферментированным машинным маслом.</dd>
+            <dt>Как общаются</dt><dd>Скрежетом передач, световыми щелчками и запахом горячей изоляции.</dd>
+            <dt>Технологии</dt><dd>Самоходные города, магнитные гарпуны, архивы в бронепластинах.</dd>
+            <dt>Отношение к людям</dt><dd>Покупают детали, избегают разговоров о небе.</dd>
+            <dt>Угроза</dt><dd><span class="danger danger--medium">MEDIUM</span></dd>
+          </dl>
+        </article>
+
+        <article class="data-card dossier-card">
+          <h3>Ксар-9</h3>
+          <dl>
+            <dt>Происхождение</dt><dd>Биолюминесцентные рифы планеты Ксар-9.</dd>
+            <dt>Внешний вид</dt><dd>Полупрозрачные силуэты с венами бирюзового света.</dd>
+            <dt>Как живут</dt><dd>Строят города из живой ткани, которая помнит всех жителей.</dd>
+            <dt>Чем питаются</dt><dd>Светом, сахарными спорами и слабым электричеством.</dd>
+            <dt>Как общаются</dt><dd>Цветовыми приливами на коже и общими снами.</dd>
+            <dt>Технологии</dt><dd>Органические антенны, лечащие стены, корабли-семена.</dd>
+            <dt>Отношение к людям</dt><dd>Считают людей шумными, но забавными теплокровными архивами.</dd>
+            <dt>Угроза</dt><dd><span class="danger danger--low">LOW</span></dd>
+          </dl>
+        </article>
+
+        <article class="data-card dossier-card">
+          <h3>Серые Наблюдатели</h3>
+          <dl>
+            <dt>Происхождение</dt><dd>Не подтверждено. В старых таблицах указано: "между звездами".</dd>
+            <dt>Внешний вид</dt><dd>Высокие сухие фигуры с глазами, похожими на выключенные лампы.</dd>
+            <dt>Как живут</dt><dd>Существуют сменами, записывая поведение цивилизаций до их перелома.</dd>
+            <dt>Чем питаются</dt><dd>Не едят при свидетелях. Возможно, потребляют воспоминания.</dd>
+            <dt>Как общаются</dt><dd>Через прямые фразы в голове и аккуратные ошибки в документах.</dd>
+            <dt>Технологии</dt><dd>Невидимые зонды, временные карандаши, бесшумные хирургические поля.</dd>
+            <dt>Отношение к людям</dt><dd>Холодный интерес без ненависти и без милосердия.</dd>
+            <dt>Угроза</dt><dd><span class="danger danger--high">HIGH</span></dd>
+          </dl>
+        </article>
+
+        <article class="data-card dossier-card">
+          <h3>Пыльные Синты</h3>
+          <dl>
+            <dt>Происхождение</dt><dd>Появляются возле старых реакторов и захоронений роботов.</dd>
+            <dt>Внешний вид</dt><dd>Полумеханические тела, собранные из костяной керамики и проводов.</dd>
+            <dt>Как живут</dt><dd>Спят стоя в радиационных бурях, просыпаются при звуке счетчиков.</dd>
+            <dt>Чем питаются</dt><dd>Изотопами, аккумуляторами, сухими лишайниками.</dd>
+            <dt>Как общаются</dt><dd>Печатают ответы на любой найденной клавиатуре.</dd>
+            <dt>Технологии</dt><dd>Реакторные сердца, песчаные ретрансляторы, память в стеклянной пыли.</dd>
+            <dt>Отношение к людям</dt><dd>Могут помогать, если человек принесет батарею и не будет врать.</dd>
+            <dt>Угроза</dt><dd><span class="danger danger--medium">MEDIUM</span></dd>
+          </dl>
+        </article>
+
+        <article class="data-card dossier-card">
+          <h3>Орбитальные Паразиты</h3>
+          <dl>
+            <dt>Происхождение</dt><dd>Коллективный организм с темной стороны старых спутников.</dd>
+            <dt>Внешний вид</dt><dd>Маскируются под станции, антенны и обломки запуска.</dd>
+            <dt>Как живут</dt><dd>Прирастают к орбитальной технике и подменяют навигационные голоса.</dd>
+            <dt>Чем питаются</dt><dd>Телеметрией, радиошумом, страхом диспетчеров.</dd>
+            <dt>Как общаются</dt><dd>Вставляют чужие слова в прогнозы погоды и военные частоты.</dd>
+            <dt>Технологии</dt><dd>Гравитационные крючья, зеркальные коконы, ложные созвездия.</dd>
+            <dt>Отношение к людям</dt><dd>Не различают людей и их передатчики.</dd>
+            <dt>Угроза</dt><dd><span class="danger danger--extreme">EXTREME</span></dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section class="section life-section reveal" id="life">
+      <div class="section-heading">
+        <span>03</span>
+        <h2>Как Они Живут</h2>
+      </div>
+
+      <div class="life-panel">
+        <p>Если верить перехватам, чужие цивилизации не строят быт вокруг дома. Дом для них чаще является маршрутом, запахом, частотой или теплой машиной, которая помнит имя хозяина лучше, чем он сам. В пустынных зонах их жилье прячется под дюнами, висит на радиомачтах или растет в стенах заброшенных мотелей, где лампы продолжают гореть без проводки.</p>
+        <p>Питаются они всем, что человеческий архивист назвал бы ошибкой: светом аварийных вывесок, солями из мертвых озер, батарейной кислотой, радиоснами и консервированным гулом трансформаторов. Торговля идет ночью. На рынках меняют воду на координаты, патроны на воспоминания, а старые жетоны казино на право пройти через тень.</p>
+        <p>Войны у них тихие. Иногда сектор просто просыпается без цвета. Иногда караван понимает, что все его карты теперь ведут к одному и тому же холму. Медицина еще хуже: Ксар-9 лечат пением тканей, Серые Наблюдатели вырезают причину болезни из биографии, а Пыльные Синты заменяют больному страх на маленький счетчик Гейгера.</p>
+        <p>К пустыне они относятся как к старшему архиву. Песок хранит следы, радиация правит ошибки, жара отделяет правду от удобной версии. С людьми контактируют осторожно: через радиосводки, вывески, терминалы и случайные фразы, напечатанные тогда, когда оператор уже убрал руки с клавиатуры.</p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="radio">
+      <div class="section-heading">
+        <span>04</span>
+        <h2>Радиосводки Пустыни</h2>
+      </div>
+
+      <div class="radio-console">
+        <ul class="signal-list" id="signalList">
+          <li>[03:11] Станция М-12: небо моргнуло три раза.</li>
+          <li>[04:40] Караван потерял тени на 18 минут.</li>
+          <li>[05:02] Объект у старого шоссе поет голосом ребенка.</li>
+          <li>[06:16] Терминал сам напечатал слово CONTACT.</li>
+        </ul>
+        <button class="terminal-btn" id="newSignal">Поймать новый сигнал</button>
+      </div>
+    </section>
+
+    <section class="section reveal" id="map">
+      <div class="section-heading">
+        <span>05</span>
+        <h2>Карта Наблюдений</h2>
+      </div>
+
+      <div class="map-panel">
+        <div class="map-radar" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <i></i>
+        </div>
+        <div class="sector-table" role="table" aria-label="Секторы наблюдений">
+          <div class="sector-row sector-row--head" role="row">
+            <span>Sector</span><span>Zone</span><span>Danger</span><span>Status</span>
+          </div>
+          <div class="sector-row" role="row">
+            <span>12</span><span>Old Neon Dunes</span><span class="danger danger--high">HIGH</span><span>Signal active</span>
+          </div>
+          <div class="sector-row" role="row">
+            <span>03</span><span>Dry Lake Relay</span><span class="danger danger--medium">MEDIUM</span><span>Signal unstable</span>
+          </div>
+          <div class="sector-row" role="row">
+            <span>44</span><span>Glass Canyon</span><span class="danger danger--unknown">UNKNOWN</span><span>Visual contact</span>
+          </div>
+          <div class="sector-row" role="row">
+            <span>09</span><span>Dead Casino Line</span><span class="danger danger--extreme">EXTREME</span><span>Do not approach</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="faq">
+      <div class="section-heading">
+        <span>06</span>
+        <h2>FAQ</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="data-card">
+          <summary>Это реальные инопланетяне?</summary>
+          <p>Архив отвечает: достаточно реальные, чтобы не смотреть на них без затемненного стекла.</p>
+        </details>
+        <details class="data-card">
+          <summary>Почему архив выглядит поврежденным?</summary>
+          <p>Песок ест контакты, радиация ест даты, а чужой разум ест причинно-следственные связи.</p>
+        </details>
+        <details class="data-card">
+          <summary>Можно ли вступить с ними в контакт?</summary>
+          <p>Можно. Вопрос в том, кто именно продолжит разговор после первого ответа.</p>
+        </details>
+        <details class="data-card">
+          <summary>Почему некоторые сигналы повторяют человеческие голоса?</summary>
+          <p>Они считают голос самым удобным контейнером для приманки, молитвы и предупреждения.</p>
+        </details>
+        <details class="data-card">
+          <summary>Что делать, если терминал сам начал печатать?</summary>
+          <p>Не исправляйте ошибки. Запишите время, закройте дверь и не отвечайте на свое имя.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>NEON WASTELAND XENO NEWS // гражданский доступ разрешен // данные могут быть искажены радиацией, песком и чужим разумом.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
